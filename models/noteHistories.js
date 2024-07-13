@@ -30,10 +30,10 @@ const noteHistorySchema = mongoose.Schema(
       type: [],
       require: false,
     },
-    // slug: {
-    //   type: String,
-    //   lowercase: true,
-    // },
+    slug: {
+      type: String,
+      lowercase: true,
+    },
   },
   {
     timestamps: true,
