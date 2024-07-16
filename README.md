@@ -7,6 +7,6 @@ description
 how to install
 - run "npm install" in command prompt
 - set Environment Variables
-  -- PORT = "port number" //such as 5000
-  -- DATABASE = "mongodb-url"
-  -- JWT_SECRET = "random-string-for-jsonwebtoken"
+-- PORT = "port number" //such as 5000
+-- DATABASE = "mongodb-url"
+-- JWT_SECRET = "random-string-for-jsonwebtoken"
