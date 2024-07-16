@@ -22,8 +22,8 @@ app.use(cors());
 app.get("/", (res, res) => {
   res.send("This is my API Running...");
 });
-app.use("/api", authRoute);
-app.use("/api", noteRoute);
+// app.use("/api", authRoute);
+// app.use("/api", noteRoute);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
