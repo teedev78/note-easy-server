@@ -19,6 +19,9 @@ app.use(express.json());
 app.use(cors());
 
 //routes
+app.get("/", (res, res) => {
+  res.send("This is my API Running...");
+});
 app.use("/api", authRoute);
 app.use("/api", noteRoute);
 
