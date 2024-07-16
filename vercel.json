@@ -29,7 +29,7 @@
             ]
         },
         {
-            "source": "https://easy-note-qfoj11a5b-teedev78s-projects.vercel.app/api/(.*)",
+            "source": "https://easy-note-qfoj11a5b-teedev78s-projects.vercel.app/(.*)",
             "headers": [
                 {
                     "key": "Access-Control-Allow-Credentials",
